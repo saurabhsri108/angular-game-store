@@ -1,0 +1,36 @@
+@import "/src/variables";
+
+.search-form {
+	display: flex;
+}
+
+.form-label {
+	display: flex;
+}
+
+.form-input {
+	font-size: 1.2rem;
+	padding: 1rem;
+	background-color: $dark-color-alpha;
+	border-top: 2px solid $primary-color;
+	border-left: 2px solid $primary-color;
+	border-bottom: 2px solid $primary-color;
+	outline: none;
+	color: $light-color;
+}
+
+
+.btn-search {
+	background-color: $dark-color-alpha;
+	border-top: 2px solid $primary-color;
+	border-right: 2px solid $primary-color;
+	border-bottom: 2px solid $primary-color;
+	border-left: 1px solid $primary-color;
+	display: flex;
+	align-items: center;
+	color: $light-color;
+
+	&:hover, &:active, &:focus {
+		background-color: $dark-color;
+	}
+}

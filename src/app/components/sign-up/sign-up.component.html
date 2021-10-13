@@ -1,0 +1,42 @@
+<section class="sign-up">
+	<h1>Sign Up</h1>
+	<span class="message">Sign up with</span>
+	<div class="social-sign-ups">
+		<button class="btn btn-google">Sign up with google</button>
+		<button class="btn btn-github">Sign up with github</button>
+	</div>
+	<form (ngSubmit)="signUp()">
+		<div class="form-group-row">
+			<div class="form-control">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" [(ngModel)]="username" required />
+				<span class="error"></span>
+				<span class="warn">Must be lowercase</span>
+			</div>
+			<div class="form-control">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" [(ngModel)]="email" required />
+				<span class="error"></span>
+				<span class="warn">Must be lowercase</span>
+			</div>
+		</div>
+		<div class="form-group-row">
+			<div class="form-control">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" [(ngModel)]="password" required />
+				<span class="error"></span>
+				<span class="warn"></span>
+			</div>
+		</div>
+		<div class="form-control">
+			<label>
+				<input type="checkbox" name="read" id="read" [(ngModel)]="readTerms" required />
+				<span>I've read and agree with Terms of Service and our Privacy Policy</span>
+			</label>
+		</div>
+		<button class="sign-up">Sign up</button>
+	</form>
+	<div class="member-already">
+		<p>Already have an account? <a routerLink="/login">Login</a></p>
+	</div>
+</section>

@@ -1,6 +1,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
 *,
 ::before,
 ::after {
@@ -15,4 +17,19 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1016px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn {
+	padding: 0.7rem 1.4rem;
+	font-weight: bold;
+	font-family: inherit;
+	border: none;
+	outline: none;
 }

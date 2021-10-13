@@ -1,0 +1,34 @@
+@import '/src/variables';
+
+.list-items {
+	display: flex;
+	gap: 1rem;
+	font-size: 1rem; 
+
+	.list-link {
+		color: $light-color;
+
+		&:hover, &:active, &:focus {
+			color: $light-color-alpha;
+		}
+
+		&.btn-login {
+			border: 1px solid $light-color;background-color: $dark-color;
+
+			&:hover, &:active, &:focus {
+				border: 1px solid $light-color;background-color: $dark-color-alpha;
+			}
+		}
+
+		&.btn-sign-up {
+			border: 1px solid $primary-color;
+			background-color: $primary-color;
+			color: $dark-color;
+
+			&:hover, &:active, &:focus {
+				border: 1px solid $primary-color-alpha;
+				background-color: $primary-color-alpha;
+			}
+		}
+	}
+}

@@ -7,25 +7,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { GaugeModule } from 'angular-gauge';
-import { MatTabsModule } from '@angular/material/tabs';
-import { MatIconModule } from '@angular/material/icon';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatSelectModule } from '@angular/material/select';
+import { SearchComponent } from './components/search/search.component';
+import { MaterialModule } from './module/material/material.module';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { LogoComponent } from './components/logo/logo.component';
+import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
-	declarations: [AppComponent],
-	imports: [
-		BrowserModule,
-		AppRoutingModule,
-		BrowserAnimationsModule,
-		FormsModule,
-		HttpClientModule,
-		GaugeModule.forRoot(),
-		MatTabsModule,
-		MatIconModule,
-		MatFormFieldModule,
-		MatSelectModule,
-	],
+	declarations: [AppComponent, SearchComponent, NavigationComponent, LogoComponent, SignUpComponent, LoginComponent],
+	imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, FormsModule, HttpClientModule, GaugeModule.forRoot(), MaterialModule],
 	providers: [],
 	bootstrap: [AppComponent],
 })
