@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Megha Kumari -> UI and Design Lead.
+
+Kunal Kumar -> Delivery Part [Client Projects, Development Life Cycle of Client Project, Support for these client interaction, etc.]
+
+Kumar Prateek -> ?
+
+Sanket Sahu -> CEO
+
+Sarwar Imam -> Talent Acquition and Operations. In case of relocation issue, like shifting to Bangaluru, reach him out.
+
+Saurabh Sahu -> Lead the Engineering Team. It's okay to make mistake. Come up with a suggestion.
