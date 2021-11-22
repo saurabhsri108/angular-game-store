@@ -1,34 +1,43 @@
-@import '/src/variables';
+@import "/src/variables";
 
 .list-items {
-	display: flex;
-	gap: 1rem;
-	font-size: 1rem; 
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
 
-	.list-link {
-		color: $light-color;
+  .list-link {
+    color: $light-color;
+    text-decoration: none;
 
-		&:hover, &:active, &:focus {
-			color: $light-color-alpha;
-		}
+    &:hover,
+    &:active,
+    &:focus {
+      color: $light-color-alpha;
+    }
 
-		&.btn-login {
-			border: 1px solid $light-color;background-color: $dark-color;
+    &.btn-login {
+      border: 1px solid $light-color;
+      background-color: $dark-color;
 
-			&:hover, &:active, &:focus {
-				border: 1px solid $light-color;background-color: $dark-color-alpha;
-			}
-		}
+      &:hover,
+      &:active,
+      &:focus {
+        border: 1px solid $light-color;
+        background-color: $dark-color-alpha;
+      }
+    }
 
-		&.btn-sign-up {
-			border: 1px solid $primary-color;
-			background-color: $primary-color;
-			color: $dark-color;
+    &.btn-sign-up {
+      border: 1px solid $primary-color;
+      background-color: $primary-color;
+      color: $dark-color;
 
-			&:hover, &:active, &:focus {
-				border: 1px solid $primary-color-alpha;
-				background-color: $primary-color-alpha;
-			}
-		}
-	}
+      &:hover,
+      &:active,
+      &:focus {
+        border: 1px solid $primary-color-alpha;
+        background-color: $primary-color-alpha;
+      }
+    }
+  }
 }

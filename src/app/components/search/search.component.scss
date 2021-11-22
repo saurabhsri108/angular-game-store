@@ -1,36 +1,47 @@
 @import "/src/variables";
 
+:host {
+  flex: 1;
+  width: 100%;
+}
+
 .search-form {
-	display: flex;
+  display: flex;
+  width: 80%;
+  margin-left: 3rem;
 }
 
 .form-label {
-	display: flex;
+  display: flex;
+  width: 100%;
 }
 
 .form-input {
-	font-size: 1.2rem;
-	padding: 1rem;
-	background-color: $dark-color-alpha;
-	border-top: 2px solid $primary-color;
-	border-left: 2px solid $primary-color;
-	border-bottom: 2px solid $primary-color;
-	outline: none;
-	color: $light-color;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: $dark-color-alpha;
+  border-top: 2px solid $primary-color;
+  border-left: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
+  outline: none;
+  color: $light-color;
+  width: 100%;
 }
 
-
 .btn-search {
-	background-color: $dark-color-alpha;
-	border-top: 2px solid $primary-color;
-	border-right: 2px solid $primary-color;
-	border-bottom: 2px solid $primary-color;
-	border-left: 1px solid $primary-color;
-	display: flex;
-	align-items: center;
-	color: $light-color;
+  background-color: $dark-color-alpha;
+  border-top: 2px solid $primary-color;
+  border-right: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
+  border-left: 1px solid $primary-color;
+  display: flex;
+  align-items: center;
+  color: $light-color;
+  cursor: pointer;
 
-	&:hover, &:active, &:focus {
-		background-color: $dark-color;
-	}
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $dark-color;
+  }
 }

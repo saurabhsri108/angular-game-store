@@ -1,9 +1,10 @@
-@import '/src/variables';
+@import "/src/variables";
 
 header {
 	background-color: $dark-color;
 	padding: 0.8rem 0;
 	height: 82px;
+
 	.container {
 		display: flex;
 		justify-content: space-between;
@@ -12,7 +13,13 @@ header {
 }
 
 .main-content {
-	display: grid;
-	place-content: center;
-	height: calc(100vh - 82px);
+	display: flex;
+	align-items: center;
+
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 0.5rem;
+		margin: 2rem 0;
+	}
 }
